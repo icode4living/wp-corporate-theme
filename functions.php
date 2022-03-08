@@ -235,7 +235,7 @@ add_action( 'wp_ajax_subscribe_to_newsletter', 'subscribe_to_newsletter' );
         //Full name
         $fname = test_input($_POST['fname']);
         //Company Name
-        $biz_name = test_input($_POST['cname']);
+        $biz_name = test_input($_POST['biz_name']);
         //Email 
         $email = test_input($_POST['email']);
         //enquiry message
@@ -246,7 +246,7 @@ add_action( 'wp_ajax_subscribe_to_newsletter', 'subscribe_to_newsletter' );
         //Admin mail header
         $headers2 = 'Content-Type: text/html; charset=UTF-8' . "\r\n";
         $headers2 .= 'From: '.$fname . '<'.$email.'>'. "\r\n";
-        $subject2 = 'Equiry From: ' .$biz_name;
+        $subject2 = 'Client Equiry Form: ' .$biz_name;
 
         //Cleint mail header
         $headersClient2 = 'Content-Type: text/html; charset=UTF-8' . "\r\n";
@@ -324,9 +324,8 @@ add_action( 'wp_ajax_subscribe_to_newsletter', 'subscribe_to_newsletter' );
         
                 }
                 #header-panel h1{
-                  padding:10px;
+                  padding:5px;
                   text-align:center;
-            width:inherit;
                 }
                 tr{
                   margin:10px;

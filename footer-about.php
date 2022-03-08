@@ -7,59 +7,41 @@
 </form>
 </div>
 <div class="footer-grid">
-    <div class="footer-content">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum</p>
-        </div>
-<div class="footer-content">
-    <h2>Services</h2>
-    <li>ICT Advisory and Consultancy</li>
-    <li>Network and Infrastructure Services</li>
-    <li>Cloud Computing</li>
-    <li>Software Development</li>
-    <li>Cybersecurity Solutions</li>
-    <li>Hardware, Software Sales &amp; Support</li>
-    <li>Professional Services</li>
-
-</div>
-<div class="footer-content">
-    <h2>Site Map</h2>
-    <ul>
-    <li><a href="/about">About</a></li>
+          <div class="footer-content">
+              <h2>About Us</h2>
+              <p>Our sole aim is to provide innovative technological solutions for small,
+                   medium and large enterprises.  
+              </p>
+              </div>
+      <div class="footer-content">
+          <h2>Services</h2>
+          <li>ICT Advisory and Consultancy</li>
+          <li>Network and Infrastructure Services</li>
+          <li>Cloud Computing</li>
+          <li>Software Development</li>
+          <li>Cybersecurity Solutions</li>
+          <li>Hardware, Software Sales &amp; Support</li>
+          <li>Professional Services</li>
+      
+      </div>
+      <div class="footer-content">
+          <h2>Site Map</h2>
+          <li><a href="/about">About</a></li>
     <li><a href="/contact">Contact</a></li>
     <li><a href="/blog">Blog</a></li>
     <li><a href="/cookie-policy">Cookie Policy</a></li>
-    </ul>
-</div>
-<div class="footer-content">
-    <h2>Contact</h2>
-    <ul>
-    <li><i class="fas fa-map-marker-alt"></i>28 Olaleye Street, Somolu Lagos, Nigeria
-    </li>
-        <li><a href="tel:0812233445"><i class="fas fa-phone-alt"></i>0812233445</a></li>
-        <li><a href="mailto:info@quantum-biztech.com"><i class="far fa-envelope"></i>info@quantum-biztech.com</a></li>
-    </ul>
-    </div>
-</div>
-<button data-scroll-top class="scroll-btn"><i class="fas fa-angle-up"></i></button>
-<!--newsletter-->
-<div class="modal-container2">
-<div class="alert-box2" id="alert-box2">
-    <button id="close-box2" class="close-box2">&times;</button>
-<h1 id="alert-title2"></h1>
-<img src="<?php echo get_theme_file_uri('asset/subemail.png')?>" alt="newsletter icon8 " />
-<p id="message-status2"> </p>
-</div>
-</div>
-</div>
-</footer>
-<?php wp_footer(); ?>
-<script>
-//Expand the content when read more is clicked
-document.querySelector("#readmore").addEventListener('click',()=>{
-    document.querySelector("#more").style.display = 'block';
-    document.querySelector("#readmore").style.display='none'
-})
-    </script>
-    </body>
-</html>
+      </div>
+      <div class="footer-content">
+          <h2>Contact</h2>
+          <li><i class="fas fa-map-marker-alt"></i>28 Olaleye Street, Somolu Lagos, Nigeria
+          </li>
+              <li><a href="tel:2348139307480"><i class="fas fa-phone-alt"></i>234-813-930-7480</a></li>
+              <li><a href="mailto:info@quantum-biztech.com"><i class="far fa-envelope"></i>info@quantum-biztech.com</a></li>
+      </div>
+      </div>
+      <button data-scroll-top class="scroll-btn"><i class="fas fa-angle-up"></i></button>
+      </footer>
+            
+      <?php wp_footer(); ?>
+          </body>
+      </html>

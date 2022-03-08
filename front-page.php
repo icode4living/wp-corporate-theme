@@ -15,14 +15,7 @@
 <h1>Transform your business with tech innovation</h1>
 </div>
 <div class="sm-grid-container">
-<div class="sm-grid-item">
-<img src="<?php echo get_theme_file_uri('asset/icons8-software-100.png')?>" alt="Software development">
-<h2>Software Development</h2>
-<!--<p>Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
-Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
-</p>-->
 
-</div>
 <div class="sm-grid-item">
 <img src="<?php echo get_theme_file_uri('asset/icons8-attack-85.png')?>" alt="Cyber threat Solution">
 
@@ -45,6 +38,14 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
 <img src="<?php echo get_theme_file_uri('asset/icons8-power-off-button-50.png')?>" alt="Power Solution">
 
 <h2>Power Solutions</h2>
+<!--<p>Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
+Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
+</p>-->
+
+</div>
+<div class="sm-grid-item">
+<img src="<?php echo get_theme_file_uri('asset/icons8-software-100.png')?>" alt="Software development">
+<h2>Software Development</h2>
 <!--<p>Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
 Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
 </p>-->
@@ -130,12 +131,12 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
 <button data-quote-btn="Hardware/Software at competitive price">Get a Quote</button>
 
 </div>
-<div class="">
-<!--<article class="title-section">
+<!--<div class="">
+<article class="title-section">
 <img src="..." alt="...">
 <h1>Lorem ipsum dolor sit amet Lorem </h1>
-</article>-->
-</div>
+</article>
+</div>-->
 
 <div class="bg-white">
 <article class="title-section">
@@ -239,7 +240,7 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
 </div>
 <div class="form-group">
     <label for="bname">Business Name </label>
-<input type="text" required placeholder="Enter your Company name" name="cname" id="cname"required>
+<input type="text" required placeholder="Enter your Company name" name="biz_name" id="biz_name"required>
 </div>
 <div class="form-group">
     <label for="phone">Mobile Number </label>
@@ -255,7 +256,7 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
     <div class="form-group">
         <label for="message">Message</label>
 
-        <textarea rows="10" cols="5" id="message"></textarea>
+        <textarea rows="10" cols="5" id="message" required></textarea>
         </div>
         <button>Send Message <i class="far fa-paper-plane"></i></button>
     </form>
@@ -267,11 +268,11 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
     </div>
     <div class="image-container">
 <div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-amazon-web-services-64.png')?>" alt="Amazon logo">
+    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-amazon-web-services-100.png')?>" alt="Amazon logo">
     <h2>Amazon</h2>
 </div>
 <div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-microsoft-100.png')?>" alt="Microsoft logo">
+    <img src="<?php echo get_theme_file_uri('asset/partner/microsoft.png')?>" alt="Microsoft logo">
     <h2>Microsoft</h2>
 </div>
 <div class="image-box">
@@ -283,11 +284,15 @@ Lorem ipsum dolor sit amet Lorem ipsum sit amet Lorem ipsum
     <h2>Dell</h2>
 </div>
 <div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-red-hat-100.png')?>" alt="Red hat logo">
+    <img src="<?php echo get_theme_file_uri('asset/partner/redhat-logo.svg')?>" alt="Red hat logo" class="svg-logo">
     <h2>Red hat</h2>
 </div>
 <div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-vmware-100.png')?>" alt="VM ware logo">
+    <img src="<?php echo get_theme_file_uri('asset/partner/fortinet-logo.svg')?>" alt="fortinet logo" class="svg-logo">
+    <h2>Red hat</h2>
+</div>
+<div class="image-box">
+    <img src="<?php echo get_theme_file_uri('asset/partner/vmware-logo.svg')?>" alt="VM ware logo" class="svg-logo">
     <h2>VM ware</h2>
 </div>
     </div>

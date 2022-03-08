@@ -32,7 +32,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <div class="nav-box" id="nav-box">
     <button class="close-btn">&times;</button>
     <nav class="logo">
-    <a href="/">Quantum Biztech</a>
+    <a href="/"><img src="<?php echo get_theme_file_uri('./asset/newlogo/mini-logo.png')?>" alt="Quantum biztech logo"></a>
+<!--<a href="/">Quantum Biztech</a>-->
 
     </nav>
 <nav class="link-menu">
@@ -62,8 +63,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
 </nav>
 <nav class="main-menu">
-<a href="tel:12345678">Call Us:  +234 123 456 76</a>
-<!--<button data-btn="search" title="search"><i class="fas fa-search"></i></button>-->
+<a href="tel:2348139307480">Call Us:  +234-813-930-7480</a>
+<!--<a href="tel:2348139307480"><i class="fas fa-phone-alt"></i>234-813-930-7480</a>-->
 
 </nav>
 </div>

@@ -186,15 +186,17 @@ body, html {
 .grid-item p {
   text-align: justify;
   line-height: 30px;
-  color: rgba(13, 14, 13, 0.5);
+  /*color: rgba(13, 14, 13, 0.5);*/
   font-size: 17px;
   font-weight: bold;
   padding: 20px;
 }
-/**upadte on 05-03-2022*/
-.main, .section-4 {
-  margin-left: calc(100vw - 95vw);
-  margin-right: (100vw - 90vw);
+/**update on 05-03-2022*/
+.main, .section-4{
+  /*margin-left: calc(100vw - 90vw);
+  margin-right: (100vw - 90vw);*/
+  margin-left: calc(100vw - 90vw);
+  margin-right: calc(100vw - 90vw);
   margin-top: 200px;
 }
 
@@ -319,12 +321,16 @@ body, html {
 
 .section-4 {
   margin-top: 100px !important;
+  /*update on 08/03/2022*/
+  /*margin-left: calc(100vw - 90vw) !important; 
+  margin-right: (100vw - 85vw) !important;*/
 }
 
 .lg-grid-container {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  
 }
 
 .bg-white {
@@ -332,8 +338,9 @@ body, html {
   background-color: white;
   transition: transform 0.2s;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   box-sizing: content-box;
+  margin-right: 10px;
 }
 .bg-white h1 {
   font-family: "Varela Round", sans-serif;
@@ -386,20 +393,20 @@ body, html {
   letter-spacing: 0.05em;
   padding: 10px;
   font-size: 25px;
-  color: rgba(13, 14, 13, 0.5);
+ /* color: rgba(13, 14, 13, 0.5);*/
   line-height: 40px;
 }
 
 .client-logo {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: calc(100vw - 90vw);
+  margin-right: calc(100vw - 90vw);
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .client-logo img {
   padding: 10px;
-  max-width: 100%;
+  width: auto;
   height: 70px;
 }
 
@@ -478,16 +485,18 @@ body, html {
 }
 
 .about-content {
+  /*update on 08/03/2022*/
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  
+ margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
 }
 
 .about-us {
   padding: 10px;
-  width: 600px;
+  width: auto;
   margin-right: 20px;
-  max-width: 100%;
+  max-width: 600px;
 }
 .about-us img {
   height: auto;
@@ -497,9 +506,9 @@ body, html {
   color: #070a68;
 }
 .about-us p {
-  line-height: 30px;
+  line-height: 35px;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.562);
+  /*color: rgba(0, 0, 0, 0.562);*/
 }
 
 /*.about-background{
@@ -507,14 +516,14 @@ body, html {
 }*/
 .form-area {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: calc(100vw - 90vw);
+  margin-right: calc(100vw - 90vw);
   margin-top: 100px;
 }
 
 .contact-content {
-  width: 700px;
-  margin-left: 50px;
+  width: 50%;
+  /*margin-left: 50px;*/
 }
 
 .form-group {
@@ -545,7 +554,7 @@ body, html {
 }
 
 .lg-form {
-  padding-left: 150px;
+  /*padding-left: 150px;*/
 }
 .lg-form button {
   border-radius: 5px;
@@ -581,73 +590,91 @@ body, html {
 }
 .parter-logo {
   margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: calc(100vw - 90vw);
+  margin-right:calc(100vw - 90vw) ;
 }
 .parter-logo h1 {
-  color: #666666;
+  /*color: #666666;*/
   font-size: 3.5em;
   padding: 20px;
 }
 
 .image-container {
-  display: block;
+ /* display: block;
   overflow: hidden;
   /*  animation: partner-logo 5s infinite; 
   transition: margin ease-in-out;*/
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .image-box {
-  display: block;
+ /* display: block;
   animation: partner-logo 6s infinite;
   transition: margin ease-in;
   padding: 40px;
-  display: inline-block;
+  display: inline-block;*/
+  padding: 10px;
+  max-width: 100%;
+
+}
+.svg-logo{
+  height: 200px;
+  width: 200px;
 }
 .image-box h2 {
-  color: #666666;
-  text-align: center;
+  /*color: #666666;
+  text-align: center;*/
+  display: none;
 }
 
 .newsletter-form {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: calc(100vw - 85vw);
+  margin-right: calc(100vw - 85vw);
   padding: 20px;
   display: block;
 }
 .newsletter-form input {
-  border: 1px solid transparent;
-  width: 600px;
+  border: 2px solid #070a68;
+  width: calc(100vw - 60vw);
   padding: 19px;
   border-radius: 5px;
 }
 .newsletter-form input:focus {
-  border: none;
+  border: 2px solid #f70052;
   outline-style: none;
 }
 .newsletter-form button {
-  background-color: #f70052;
+  /*background-color: #f70052;
+  color: white;*/
+  background-color: #070a68;
   color: white;
   padding: 16px;
   border: none;
   font-size: 20px;
   font-family: "Varela Round", sans-serif;
-  width: 200px;
+  width: 20vw;
+  border-radius: 5px;
 }
 
 .newsletter {
-  background-color: #070a68;
+ /* background-color: #070a68;*/
+ background-color: white;
 }
 .newsletter h1 {
   text-align: center;
-  color: white;
+  color: #070a68;
   padding: 20px;
 }
 
 footer {
-  background-color: #ffff;
+  /*background-color: rgb(247, 242, 242);*/
+  background-color: #070a68;
+  color: white;
   overflow-x: hidden;
   position: relative;
+  border-top: 5px solid #f70052;
 }
 
 .footer-grid {
@@ -659,17 +686,18 @@ footer {
 
 .footer-content h2 {
   text-align: justify;
-  color: rgba(0, 0, 0, 0.603);
+  /*color: rgba(0, 0, 0, 0.603);*/
 }
 .footer-content li {
   list-style: none;
   padding: 14px 16px;
-  color: rgba(0, 0, 0, 0.603);
+ /* color: rgba(0, 0, 0, 0.603);*/
   display: block!;
 }
 .footer-content a, .footer-content p {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.603);
+  /*color: rgba(0, 0, 0, 0.603);*/
+  color: white;
   display: block;
   padding: 10px;
 }
@@ -686,7 +714,9 @@ footer {
   border: none;
   box-shadow: 0px 0px 8px 0px rgba(17, 17, 17, 0.76);
 border-radius: 80%;
-  background-color: #070a68;
+ /* background-color: #070a68;
+  color: white;*/
+  background-color: #f70052;
   color: white;
   padding: 5px;
 }
@@ -924,8 +954,8 @@ border-radius: 80%;
   }
 
   .main, .section-4 {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: calc(100vw 90vw );
+    margin-right: calc(100vw - 90vw);
     margin-top: 450px;
   }
 
@@ -1032,7 +1062,7 @@ border-radius: 80%;
     letter-spacing: 0.05em;
     padding: 10px;
     font-size: 20px;
-    color: rgba(13, 14, 13, 0.5);
+    /*color: rgba(13, 14, 13, 0.5);*/
     line-height: 30px;
   }
 
@@ -1094,7 +1124,7 @@ border-radius: 80%;
   }
   .newsletter-form input {
     border: 1px solid transparent;
-    width: 90%;
+    width: auto;
     display: block;
     padding: 14px;
     margin: 10px;
@@ -1109,19 +1139,21 @@ border-radius: 80%;
     padding: 13px;
     border: none;
     margin: 10px;
-    width: 90%;
+    width: auto;
     font-size: 20px;
     display: block;
     font-family: "Varela Round", sans-serif;
   }
 
   .newsletter {
-    background-color: #070a68;
+    /*background-color: #070a68;*/
+    background-color: white;
   }
   .newsletter h1 {
     text-align: center;
-    color: white;
+   /* color: white;*/
     padding: 20px;
+    color: #070a68;
   }
 
   .parter-logo {
@@ -1130,7 +1162,7 @@ border-radius: 80%;
     margin-right: 5px;
   }
   .parter-logo h1 {
-    color: #666666;
+   /* color: #666666;*/
     font-size: 3em;
     padding: 20px;
   }
@@ -1156,11 +1188,12 @@ border-radius: 80%;
         }*/
   }
   .image-container {
-    width: 1500px;
+    /*width: 1500px;
     overflow: hidden;
     display: block;
     animation: partner-mobile-logo 5s infinite;
-    transition: margin ease-in-out;
+    transition: margin ease-in-out;*/
+
   }
 }
 @media (max-width:375px) {

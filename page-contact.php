@@ -65,7 +65,7 @@
 
 <div class="form-areas">
     <label>Bussiness Name</label>
-    <input type="text" name="cname" placeholder="Company Name" id="cname"required>
+    <input type="text" name="biz_name" placeholder="Company Name" id="biz_name"required>
     </div>
 
     <div class="form-areas">

@@ -23,7 +23,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <div class="nav-box" id="nav-box">
     <button class="close-btn">&times;</button>
     <nav class="logo">
-<a href="/">Quantum Biztech</a>
+    <a href="/"><img src="<?php echo get_theme_file_uri('./asset/newlogo/mini-logo.png')?>" alt="Quantum biztech logo"></a>
+<!--<a href="/">Quantum Biztech</a>-->
+
     </nav>
 <nav class="link-menu">
     <div class="nav-menu" id="nav-menu">

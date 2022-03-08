@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
         e.preventDefault();
 
          let fname = jQuery("#fname").val();
-         let bizname = jQuery("#cname").val();
+         let biz_name = jQuery("#biz_name").val();
          let email = jQuery("#email").val();
          let phone = jQuery("#phone").val();
          let message = jQuery("#message").val();
@@ -24,7 +24,7 @@ jQuery("#alert-title").text('Please wait');
          type:'post',
          url:localize._object_url,
          //dataType:'json',
-         data:{action:'send_enquiry_email',fname:fname,bizname:bizname, email:email, phone:phone, message:message}
+         data:{action:'send_enquiry_email',fname:fname,biz_name:biz_name, email:email, phone:phone, message:message}
          
      }).done((resp)=>{
   

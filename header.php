@@ -53,7 +53,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </div>
 </nav>
 <nav class="main-menu">
-<a href="tel:12345678">Call Us:  +234 123 456 76</a>
+<a href="tel:2348139307480">Call Us:  +234-813-930-7480</a>
 </nav>
 </div>
 </div>
