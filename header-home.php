@@ -22,6 +22,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--Navigation-->
 <div class="nav-container">
     <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    <a href="/" class="m-logo"><img src="<?php echo get_theme_file_uri('./asset/newlogo/mini-logo.png')?>" alt="Quantum biztech logo" ></a>
+
 <div class="nav-box" id="nav-box">
     <button class="close-btn">&times;</button>
     <nav class="logo">

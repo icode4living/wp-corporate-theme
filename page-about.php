@@ -18,9 +18,9 @@
 
 <!--Page content-->
 
-<div class="section-4">
 
-<div class="content-section">
+<div class="article-container">
+    <h1 class="article-title">About Us</h1>
     <p><b>Quantum BizTech (QBT) Nigeria Limited</b> is the parent company of <b>Digispace Solutions</b>.
          We are an indigenous information and communications technology company, established to provide full range of ICT services, customized to meets any business need. We are registered with the corporate affairs commission (CAC) of Nigeria with head office in Lagos Nigeria. 
          <span id="readmore">Read more &plus;</span>
@@ -31,13 +31,12 @@
             We have well trained and experienced experts in various field of ICT and over the years established both local and international partnership with which we have used to serve our client to the fullest.
              </p> 
     </div>
-<div class="flex-container">
-<article class="about-us">
-<img src="<?php echo get_theme_file_uri('asset/vision.jpg')?>" alt="Quantum Biz tech" class="section-image">
+<div class="flex-box">
+    <div class="img-box">
+<img src="<?php echo get_theme_file_uri('asset/vision-main.jpg')?>" alt="Quantum Biz tech" class="section-image">
+</div>
 
-</article>
-
-<article class="about-us">
+<article>
 <h1>Our Vision</h1>
 <p> To become the best ICT solutions provider in Africa 
     achieving 100% customer satisfaction in service delivery.
@@ -45,20 +44,19 @@
 </article>
 </div>
 
-<div class="flex-container">
-    <article class="about-us">
+<div class="flex-box">
+    <article>
         <h1>Our Mission</h1>
         <p> To deliver premium innovative business solutions through a 
             strong commitment to exceptional talent development, excellence, 
             responsiveness and integrity. 
         </p>
         </article>
-    <article class="img-section">
-    <img src="<?php echo get_theme_file_uri('asset/mission.jpg')?>" alt="Quantum Mission" class="section-image">
+        <div class="img-box">
+
+    <img src="<?php echo get_theme_file_uri('asset/mision-main.jpg')?>" alt="Quantum Mission" class="section-image">
+</div>
     
-    </article>
-    
-    </div>
 </div>
     <div class="parter-logo">
     <div style="text-align: center;">
