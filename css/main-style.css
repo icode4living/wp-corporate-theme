@@ -323,9 +323,7 @@ body, html {
 
 .section-4 {
   margin-top: 100px !important;
-  /*update on 08/03/2022*/
-  /*margin-left: calc(100vw - 90vw) !important; 
-  margin-right: (100vw - 85vw) !important;*/
+  
 }
 
 .lg-grid-container {
@@ -361,19 +359,7 @@ body, html {
   transform: scale(1.1);
 }
 
-/*.bg-white:hover [data-quote-btn]{
-    display: block;
-    border: none;
-    border-radius: 20px;
-    background-color: $second-color;
-    color: white;
-    padding: 10px;
-    width: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-}*/
+
 .main-title h1 {
   color: #070a68;
   font-size: 2.5em;
@@ -395,7 +381,6 @@ body, html {
   letter-spacing: 0.05em;
   padding: 10px;
   font-size: 25px;
- /* color: rgba(13, 14, 13, 0.5);*/
   line-height: 40px;
 }
 
@@ -510,12 +495,8 @@ body, html {
 .about-us p {
   line-height: 35px;
   font-size: 20px;
-  /*color: rgba(0, 0, 0, 0.562);*/
 }
 
-/*.about-background{
-
-}*/
 .form-area {
   display: flex;
   margin-left: calc(100vw - 90vw);
@@ -555,9 +536,7 @@ body, html {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-.lg-form {
-  /*padding-left: 150px;*/
-}
+
 .lg-form button {
   border-radius: 5px;
   border: none;
@@ -602,10 +581,7 @@ body, html {
 }
 
 .image-container {
- /* display: block;
-  overflow: hidden;
-  /*  animation: partner-logo 5s infinite; 
-  transition: margin ease-in-out;*/
+ 
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -661,7 +637,6 @@ body, html {
 }
 
 .newsletter {
- /* background-color: #070a68;*/
  background-color: white;
 }
 .newsletter h1 {
@@ -671,7 +646,6 @@ body, html {
 }
 
 footer {
-  /*background-color: rgb(247, 242, 242);*/
   background-color: #070a68;
   color: white;
   overflow-x: hidden;
@@ -716,8 +690,7 @@ footer {
   border: none;
   box-shadow: 0px 0px 8px 0px rgba(17, 17, 17, 0.76);
 border-radius: 80%;
- /* background-color: #070a68;
-  color: white;*/
+ 
   background-color: #f70052;
   color: white;
   padding: 5px;
@@ -825,26 +798,22 @@ border-radius: 80%;
     height: 50px;
   }
 
-  /*.bg-white:hover [data-quote-btn] {
-    display: none;
-   
-  }*/
+  
 
   .logo {
     display: none;
    
   }
-  .m-logo{
-    position: absolute;
-    left: 10px;
-    display: block;
-    padding: 10px;
-  }
+  
 .logo a{
  display: none;
-  /*color:#070a68 !important;
-  font-weight: bold !important;
-  font-size: 25px !important;*/
+  
+}
+.m-logo{
+  position: absolute;
+  left: 10px;
+  display: block;
+  padding: 10px;
 }
   .mobile-menu-btn {
     display: block;
@@ -1134,7 +1103,7 @@ border-radius: 80%;
     padding: 10px;
   }
   .newsletter-form input {
-    border: 1px solid transparent;
+    border: 1px solid #070a68;
     width: auto;
     display: block;
     padding: 14px;
@@ -1142,7 +1111,7 @@ border-radius: 80%;
   }
   .newsletter-form input:focus {
     outline: none;
-    border: none;
+    border: 2px solid #070a68;
   }
   .newsletter-form button {
     background-color: #f70052;
@@ -1187,32 +1156,35 @@ border-radius: 80%;
       position: relative;
       right: 100%;
     }
-    /* from{
-            position: relative;
-           //margin-right: 0;
-           right: 0;
-        }
-        to{
-            position: relative;
-            right:100%;
-    //margin-left: 100px;
-        }*/
+   
   }
-  .image-container {
-    /*width: 1500px;
-    overflow: hidden;
-    display: block;
-    animation: partner-mobile-logo 5s infinite;
-    transition: margin ease-in-out;*/
-
-  }
+ 
 }
 @media (max-width:375px) {
   .main, .section-4 {
     margin-top: 550px;
   } 
 }
-@media (max-width: 1180px) {
+@media (max-width: 1080px) {
+  .m-logo{
+    position: absolute;
+    left: 10px;
+    display: block;
+    padding: 10px;
+  }
+    .mobile-menu-btn {
+      display: block;
+      color: #070a68;
+      appearance: button;
+      position: absolute;
+      padding: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      margin: auto;
+    }
+  
   .main-banner {
     animation: backgroud-slides 5s;
     transition: backgroud ease-out;
@@ -1299,7 +1271,7 @@ border-radius: 80%;
     padding: 10px;
   }
   .newsletter-form input {
-    border: 1px solid transparent;
+    border: 1px solid #070a68;
     width: 90%;
     display: block;
     padding: 14px;
@@ -1307,7 +1279,7 @@ border-radius: 80%;
   }
   .newsletter-form input:focus {
     outline: none;
-    border: none;
+    border: 2px solid #070a68;
   }
   .newsletter-form button {
     background-color: #f70052;
