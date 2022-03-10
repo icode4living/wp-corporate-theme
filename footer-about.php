@@ -3,7 +3,7 @@
     <h1>Get Started With Us</h1>
 <form class="newsletter-form" id="newsletter-form">
 <input type="email" placeholder="Enter your email" name="client_email" id="client_email">
-<button>Submit</button>
+<button type="submit">Submit</button>
 </form>
 </div>
 <div class="footer-grid">
@@ -41,7 +41,16 @@
       </div>
       <button data-scroll-top class="scroll-btn"><i class="fas fa-angle-up"></i></button>
       </footer>
-            
+           <!--newsletter-->
+<div class="modal-container2">
+<div class="alert-box2" id="alert-box2">
+    <button id="close-box2" class="close-box2">&times;</button>
+<h1 id="alert-title2"></h1>
+<img src="<?php echo get_theme_file_uri('asset/subemail.png')?>" alt="newsletter icon8 " />
+<p id="message-status2" style="color:black"> </p>
+</div>
+</div>
+</div> 
       <?php wp_footer(); ?>
           </body>
       </html>

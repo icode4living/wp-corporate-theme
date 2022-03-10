@@ -40,6 +40,7 @@
       </div>
       </div>
       <button data-scroll-top class="scroll-btn"><i class="fas fa-angle-up"></i></button>
+      
       </footer>
             
       <?php wp_footer(); ?>

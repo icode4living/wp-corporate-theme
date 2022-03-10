@@ -3,7 +3,7 @@
     <h1>Subscribe to Newsletter</h1>
 <form class="newsletter-form" id="newsletter-form">
 <input type="email" placeholder="Enter your email" name="client_email" id="client_email" required>
-<button>Subscribe Now <i class="far fa-envelope"></i></button>
+<button type="submit">Subscribe Now <i class="far fa-envelope"></i></button>
 </form>
 </div>
 <div class="footer-grid">
@@ -40,6 +40,16 @@
       </div>
       </div>
       <button data-scroll-top class="scroll-btn"><i class="fas fa-angle-up"></i></button>
+      <!--newsletter-->
+<div class="modal-container2">
+<div class="alert-box2" id="alert-box2">
+    <button id="close-box2" class="close-box2">&times;</button>
+<h1 id="alert-title2"></h1>
+<img src="<?php echo get_theme_file_uri('asset/subemail.png')?>" alt="newsletter icon8 " />
+<p id="message-status2" style="color:black"> </p>
+</div>
+</div>
+</div>
       </footer>
             
       <?php wp_footer(); ?>

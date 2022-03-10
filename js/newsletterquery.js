@@ -18,7 +18,7 @@ jQuery(document).ready(function(){
           
       }).done((resp)=>{
     
- console.log(resp);
+ //console.log(resp);
        jQuery('.close-box2').css('display','block');
        jQuery('.alert-box2').removeClass('--animated-box2');
  

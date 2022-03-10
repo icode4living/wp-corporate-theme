@@ -35,11 +35,11 @@ add_action( 'phpmailer_init', 'my_php_mailer' );
 
 function my_php_mailer($phpmailer){
   $phpmailer->isSMTP();
-  $phpmailer->Host = 'mail.quantum-biztech.com';
+  $phpmailer->Host = '';
   $phpmailer->SMTPAuth = true;
   $phpmailer->Port = 26;
-  $phpmailer->Username = 'info@quantum-biztech.com';
-  $phpmailer->Password = 'Decoded1982';
+  $phpmailer->Username = '';
+  $phpmailer->Password = '';
 
 
 
