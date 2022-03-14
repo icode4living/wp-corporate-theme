@@ -58,41 +58,23 @@
 </div>
     
 </div>
-    <div class="parter-logo">
-    <div style="text-align: center;">
-<h1>Our Tech Partners</h1>
-    </div>
-    <div class="image-container">
-<div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-amazon-web-services-100.png')?>" alt="Amazon logo">
-    <h2>Amazon</h2>
-</div>
-<div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/microsoft.png')?>" alt="Microsoft logo">
-    <h2>Microsoft</h2>
-</div>
-<div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-hp-100.png')?>" alt="HP logo">
-    <h2>HP</h2>
-</div>
-<div class="image-box">
-    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-dell-100.png')?>" alt="Dell logo">
-    <h2>Dell</h2>
-</div>
-<div class="image-box">
+<div class="image-container">
+    <img src="<?php echo get_theme_file_uri('asset/partner/veeam-logo.svg')?>" alt="Veeam logo" >
+    <img src="<?php echo get_theme_file_uri('asset/partner/microsoft.png')?>" alt="Microsoft logo" >
+
+    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-dell-100.png')?>" 
+    alt="Dell logo" style="height:100px; width:100px">
+    <img src="<?php echo get_theme_file_uri('asset/partner/hp-logo.png')?>" alt="HP logo" style="height:100px; width:100px" >
+
     <img src="<?php echo get_theme_file_uri('asset/partner/redhat-logo.svg')?>" alt="Red hat logo" class="svg-logo">
-    <h2>Red hat</h2>
-</div>
-<div class="image-box">
     <img src="<?php echo get_theme_file_uri('asset/partner/fortinet-logo.svg')?>" alt="fortinet logo" class="svg-logo">
-    <h2>Red hat</h2>
-</div>
-<div class="image-box">
     <img src="<?php echo get_theme_file_uri('asset/partner/vmware-logo.svg')?>" alt="VM ware logo" class="svg-logo">
-    <h2>VM ware</h2>
-</div>
+    <img src="<?php echo get_theme_file_uri('asset/partner/Sophos_logo.svg')?>" alt="Sophos logo" 
+    class="xm-logo2" >
+    <img src="<?php echo get_theme_file_uri('asset/partner/icons8-amazon-web-services-100.png')?>" alt="Amazon logo">
+
+    <img src="<?php echo get_theme_file_uri('asset/partner/cisco-logo.png')?>" alt="Cisco logo" class="">
     </div>
-</div>
 </div>
 
 <?php if(is_front_page()):

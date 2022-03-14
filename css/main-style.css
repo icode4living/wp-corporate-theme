@@ -37,14 +37,27 @@ body, html {
     background-size: cover;
   }
 }
+.nav-box{
+  /**update version 1.5 */
+  margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
+}
+.link-menu{
+  margin-left: 30px;
+
+}
+
 .logo a{
   text-decoration: none !important;
  /* color:#070a68 !important;
   font-weight: bold !important;
   font-size: 25px;*/
+
 }
-.logo img{
-  padding-top: 0;
+.logo{
+  position: absolute;
+  top:2px;
+  left: 30px;
 }
 /*header style rules*/
 .main-banner {
@@ -66,6 +79,7 @@ body, html {
   width: 100%;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+
 }
 .nav-container nav {
   color: white;
@@ -76,7 +90,8 @@ body, html {
 
 .nav-menu {
   display: inline-block;
-  padding: 12px;
+  padding: 12px 14px;
+  /**version 1.5 update*/
 }
 .nav-menu a {
   color: #070a68;
@@ -96,8 +111,9 @@ body, html {
   box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
   display: block;
   position: absolute;
-  top: 70px;
-  overflow: auto;
+  top: 50px;
+  overflow: hidden;
+  z-index: 1;
   /*overflow: hidden;
   z-index: -999;*/
 }
@@ -109,7 +125,7 @@ body, html {
 
 .main-menu {
   position: absolute;
-  right: 20px;
+  right: 40px;
 }
 .main-menu a {
   color: #070a68;
@@ -131,14 +147,18 @@ body, html {
 }
 
 .text-banner {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
   text-align: center;
+  flex-wrap: nowrap;
 }
 .text-banner h1 {
   font-size: 4em;
   word-spacing: 0.006em;
   color: white;
+  text-align: center;
+
+  
 }
 .text-banner a {
   text-decoration: none;
@@ -197,8 +217,8 @@ body, html {
 .main, .section-4{
   /*margin-left: calc(100vw - 90vw);
   margin-right: (100vw - 90vw);*/
-  margin-left: calc(100vw - 90vw);
-  margin-right: calc(100vw - 90vw);
+  margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
   margin-top: 200px;
 }
 
@@ -259,6 +279,7 @@ body, html {
 .bgsection-1 article {
   padding: 30px;
   flex-wrap: wrap;
+  margin-left: calc(100vw - 98vw);
 }
 .bgsection-1 h1 {
   font-size: 2.5em;
@@ -369,6 +390,7 @@ body, html {
 .client-section {
   margin-top: 50px;
   background-color: #fcfcfc;
+  
 }
 .client-section h1 {
   font-size: 2.5em;
@@ -385,8 +407,8 @@ body, html {
 }
 
 .client-logo {
-  margin-left: calc(100vw - 90vw);
-  margin-right: calc(100vw - 90vw);
+  margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -499,8 +521,8 @@ body, html {
 
 .form-area {
   display: flex;
-  margin-left: calc(100vw - 90vw);
-  margin-right: calc(100vw - 90vw);
+  margin-left: calc(100vw - 95vw);
+  margin-right: calc(100vw - 95vw);
   margin-top: 100px;
 }
 
@@ -583,8 +605,8 @@ body, html {
 .image-container {
  
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .image-box {
@@ -593,9 +615,15 @@ body, html {
   transition: margin ease-in;
   padding: 40px;
   display: inline-block;*/
-  padding: 10px;
   max-width: 100%;
+  align-items: center;
 
+}
+.xm-image{
+  padding-top: 20px;
+}
+.xm-logo2{
+  padding-top: 80px;
 }
 .svg-logo{
   height: 200px;
@@ -657,7 +685,7 @@ footer {
   margin: 20px;
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .footer-content h2 {
@@ -778,7 +806,7 @@ border-radius: 80%;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
   .address {
-    text-align: center !important;
+    text-align: justify !important;
   }
   .address span {
     color: rgba(5, 5, 5, 0.6);
